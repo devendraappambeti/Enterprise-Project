@@ -6,7 +6,7 @@ stages {
 
 stage('Checkout') {
 steps {
-git 'https://github.com/YOUR_USERNAME/azure-devops-enterprise-project.git'
+git 'https://github.com/devendraappambeti/azure-devops-enterprise-project.git'
 }
 }
 
