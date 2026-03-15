@@ -1,0 +1,12 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: devops-app
+spec:
+  source:
+    repoURL: https://github.com/YOUR_USERNAME/azure-devops-enterprise-project
+    path: kubernetes
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: default
+  project: default
