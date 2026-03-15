@@ -4,7 +4,7 @@ metadata:
   name: devops-app
 spec:
   source:
-    repoURL: https://github.com/YOUR_USERNAME/azure-devops-enterprise-project
+    repoURL: https://github.com/devendraappambeti/Enterprise-Project.git
     path: kubernetes
   destination:
     server: https://kubernetes.default.svc
