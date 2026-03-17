@@ -6,7 +6,8 @@ stages {
 
 stage('Checkout') {
 steps {
-git 'https://github.com/devendraappambeti/Enterprise-Project.git'
+git branch: 'main',
+url: 'https://github.com/devendraappambeti/Enterprise-Project.git'
 }
 }
 
