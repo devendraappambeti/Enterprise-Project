@@ -12,9 +12,11 @@ url: 'https://github.com/devendraappambeti/Enterprise-Project.git'
 }
 
 stage('SonarQube Scan') {
-steps {
-bat 'sonar-scanner'
-}
+    steps {
+        withSonarQubeEnv('SonarQube') {
+            bat 'sonar-scanner'
+        }
+    }
 }
 
 stage('Build Docker Image') {
