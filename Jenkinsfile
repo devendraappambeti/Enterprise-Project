@@ -1,6 +1,5 @@
 pipeline {
 
-```
 agent any
 
 tools {
@@ -70,6 +69,5 @@ stages {
         }
     }
 }
-```
 
 }
