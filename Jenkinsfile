@@ -11,7 +11,6 @@ url: 'https://github.com/devendraappambeti/Enterprise-Project.git'
 }
 }
 
-
 stage('Build Docker Image') {
 steps {
 bat 'docker build -t devops-app .'
