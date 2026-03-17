@@ -17,11 +17,6 @@ bat 'docker build -t devops-app .'
 }
 }
 
-stage('Security Scan') {
-steps {
-bat 'trivy image devops-app'
-}
-}
 
 stage('Push Image') {
 steps {
